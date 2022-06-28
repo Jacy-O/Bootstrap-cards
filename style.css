@@ -1,0 +1,210 @@
+.container{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.card-block{
+  padding: 50px 0 50px 0;
+  background-color: #000000;
+  border-bottom: 5px solid red;
+}
+
+h1{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.col-md-2, .col-md-1{
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  color: blue;
+}
+
+.card{
+	margin-bottom: 10px;
+}
+
+.card-header {
+	background-image:
+		url('https://image.shutterstock.com/image-vector/young-woman-writes-code-on-260nw-1731157933.jpg');
+	height: 200px;
+	border: 1px solid red;
+	z-index: 9;
+}
+
+.card-header.ab img{
+	object-fit: cover;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid red;
+	margin: auto;
+	display: flex;
+	margin-top: 140px;
+}
+
+.card-header.bc img{
+	object-fit: cover;
+	height: 100px;
+	width: 100px;
+	border-radius: 30%;
+	border: 2px solid red;
+	margin: auto;
+	display: flex;
+	margin-top: 140px;
+}
+
+.card-header.cd img{
+	object-fit: cover;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid red;
+	margin-left: -70px;
+	margin-top: 140px;
+}
+
+.btn.btn-primary.cd{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card.de{
+	box-shadow: 10px 10px 4px gray;
+}
+
+.card-header.ef img{
+	object-fit: cover;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid red;
+	margin: auto;
+	display: flex;
+	margin-top: 70px;
+}
+
+.layer{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.btn.btn-primary.ef{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 3px solid white;
+}
+
+.card-body.ef{
+	padding-bottom: 55px;
+}
+
+.card-body.gh{
+	padding-bottom: 55px;
+	background:
+	linear-gradient(to bottom right,rgba(0, 0, 0, 0) 50% , red 50%) bottom right/50px 50px no-repeat;
+}
+
+.card-body{
+	border: 1px solid black;
+	padding-top: 70px !important;
+}
+
+.card-title{
+	color: coral;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+}
+
+.card-body p{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn.btn-primary{
+	background-color: coral;
+	border-color: coral;
+	border-radius: 2rem;
+	width: 150px;
+	text-align: center;
+	margin: auto;
+	display: flex;
+	display: grid;
+}
+
+.stacked-container {
+  display: flex;
+  margin: 50px auto 100px auto;
+}
+
+.row.z{
+	background-color: rgb(22, 22, 22);
+	padding: 20px;
+	margin: auto;
+}
+
+.card.z{
+  height: 280px;
+  width: 200px;
+  background-color: #28262e;
+  border-radius: 10px;
+  box-shadow: -0.5rem 0 4rem #000;
+	border-left: 8px solid orange;
+}
+
+body.z{
+  margin-top: 10px;
+  text-align: center;
+	color: white;
+}
+
+.card:not(:first-child){
+	margin-left: -50px;
+}
+
+.card:hover{
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card{
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title{
+  color: White;
+  font-weight: 500;
+	font-size: medium ;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.circle{
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+.circle img{
+	object-fit: cover;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 1px solid coral;
+	margin-left: -20px;
+	margin-top: 60px;
+}
